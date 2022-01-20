@@ -55,10 +55,13 @@ function App () {
       
       <header className="App-header">
       <a className="alignCentral" href="https://github.com/KevinMacias181667/POKEMON_TRABAJO.git">Github</a>
-      <div className="flex-container">
+      <div className='flex-container'>
            
-      <img src={pokemon?.sprites?.back_default ??  "https://i.pinimg.com/originals/95/fc/30/95fc304b40461a9922bd1d3aff885496.png"} className="poke-image" />
-      <img src={pokemon?.sprites?.front_default ?? "https://pngimg.com/uploads/pokeball/pokeball_PNG20.png"} className="poke-image" />
+      <img src={pokemon?.sprites?.back_default ??  "https://i.pinimg.com/originals/95/fc/30/95fc304b40461a9922bd1d3aff885496.png"} className="poke-image"  alt="logo"/>
+      <img src={pokemon?.sprites?.front_default ?? "https://pngimg.com/uploads/pokeball/pokeball_PNG20.png"} className="poke-image" alt="logo"/>
+        
+      
+      
       
       </div> 
         <p> {pokemon.name}</p>
