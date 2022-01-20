@@ -54,7 +54,7 @@ function App () {
     <div className="App">
       
       <header className="App-header">
-      <a className="alignCentral" >Github</a>
+      <a className="alignCentral" href="https://github.com/KevinMacias181667/POKEMON_TRABAJO.git">Github</a>
       <div className="flex-container">
            
       <img src={pokemon?.sprites?.back_default ??  "https://i.pinimg.com/originals/95/fc/30/95fc304b40461a9922bd1d3aff885496.png"} className="poke-image" />
