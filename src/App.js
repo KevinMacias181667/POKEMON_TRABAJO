@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import abilities from './PokemonComp/abilities'
+//import abilities from './PokemonComp/abilities'
 import Popup from './PokemonComp/abilities';
 function App () {
   const [pokemon, setPokemon] = useState({});
